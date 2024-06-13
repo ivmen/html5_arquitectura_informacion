@@ -243,31 +243,50 @@
       </section>
     </aside>
     <footer>
-      <p>Puedes ponerte en contacto ocn nosotros a traves de este formulario para sugerencias,consultas o dudas:</p>
-      <table>
-        <tr>
-          <td>
-              <h2>Informacion de contacto</h2>
-              <form action="/my-handling-form-page" method="post" id="contacto">
-                <ul>
-                  <li>
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="user_name" />
-                  </li>
-                  <li>
-                    <label for="mail">Correo electrónico:</label>
-                    <input type="email" id="mail" name="user_mail" />
-                  </li>
+      <h2>Informacion de contacto</h2>
+     <details>
+      <summary></summary>
+      <div>
+        <table>
+          <tr>
+            <p>Puedes ponerte en contacto ocn nosotros a traves de este formulario para sugerencias,consultas o dudas:</p>
+            <td>
+                <form action="/my-handling-form-page" method="post" id="contacto">
+                  <ul>
                     <li>
-                      <label for="msg">Mensaje:</label>
-                      <textarea id="msg" name="user_message"></textarea>
+                      <label for="name">Nombre:</label>
+                      <input type="text" id="name" name="user_name" />
                     </li>
-                </ul>
-              </form>
-          </td>
-        </tr>
-      </table>
-      <button>Enviar</button>
-      <h3>&copy; 2024 scorpions, inc. All rights Reserved</h3>
+                    <li>
+                      <label for="mail">Correo electrónico:</label>
+                      <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <td>
+                      <li>
+                        <label for="content">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" />
+                      </li>
+                      <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                    </td>
+                  </ul>
+                </form>
+            </td>
+          </tr>
+        </table>
+        <button>Enviar</button>
+      </div>
+      <div>
+        <p>Tambien puedes estar al tanto de nuestras redes sociales en los links a continuacion: </p>
+        <ul>
+          <li><a href="www.twiter.es">Twitter</a></li>
+          <li><a href="www.Facebook.es">Facebook</a></li>
+          <li><a href="www.Instagram.es">Instagram</a></li>
+        </ul>
+      </div>
+     </details>
+     <section><h3>&copy; 2024 scorpions, inc. All rights Reserved</h3></section>
     </footer>
   </body>
